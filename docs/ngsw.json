@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1715796985918,
+  "index": "/ng-deploy-control-gastos/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/ng-deploy-control-gastos/favicon.ico",
+        "/ng-deploy-control-gastos/index.html",
+        "/ng-deploy-control-gastos/main.8a1c64489c0f5b8d.js",
+        "/ng-deploy-control-gastos/manifest.webmanifest",
+        "/ng-deploy-control-gastos/polyfills.6e82d783da067def.js",
+        "/ng-deploy-control-gastos/runtime.b1b86d5fcbf24919.js",
+        "/ng-deploy-control-gastos/styles.f5d630ac06784ae8.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/ng-deploy-control-gastos/assets/icons/icon-128x128.png",
+        "/ng-deploy-control-gastos/assets/icons/icon-144x144.png",
+        "/ng-deploy-control-gastos/assets/icons/icon-152x152.png",
+        "/ng-deploy-control-gastos/assets/icons/icon-192x192.png",
+        "/ng-deploy-control-gastos/assets/icons/icon-384x384.png",
+        "/ng-deploy-control-gastos/assets/icons/icon-512x512.png",
+        "/ng-deploy-control-gastos/assets/icons/icon-72x72.png",
+        "/ng-deploy-control-gastos/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/ng-deploy-control-gastos/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/ng-deploy-control-gastos/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/ng-deploy-control-gastos/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/ng-deploy-control-gastos/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/ng-deploy-control-gastos/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/ng-deploy-control-gastos/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/ng-deploy-control-gastos/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/ng-deploy-control-gastos/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/ng-deploy-control-gastos/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/ng-deploy-control-gastos/index.html": "aa8682793f24acfbc4203851d46b9d6275a81feb",
+    "/ng-deploy-control-gastos/main.8a1c64489c0f5b8d.js": "f90f05cebe24d71e36e25e072ac5f039419fb0c3",
+    "/ng-deploy-control-gastos/manifest.webmanifest": "e18ce4620f86ec9e04a60f303223adc81c895430",
+    "/ng-deploy-control-gastos/polyfills.6e82d783da067def.js": "6404b9fd469750b9b6ff973a4101833e12e34bc2",
+    "/ng-deploy-control-gastos/runtime.b1b86d5fcbf24919.js": "eb9972a1e50ab6de08ef9c44d6793a9dfcb92baf",
+    "/ng-deploy-control-gastos/styles.f5d630ac06784ae8.css": "cc153e4af5e81600915b44e1968c667823ad905b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

@@ -26,7 +26,7 @@ export class AppComponent implements  OnInit   {
   displayedColumnsMes: string[] = ['mes', 'total'];
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   mostrarCard: boolean = false;
-  descipcion: string = "";
+  descipcion: string = ""; 
 
   constructor(private dialog: MatDialog, private _serivice: GastosService) {}
   

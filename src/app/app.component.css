@@ -26,7 +26,7 @@ table {
 .example-button-row .mat-button-base {
   margin: 8px 8px 8px 0;
 }
-
+/*
 td.mat-cell {
   text-align: center; 
   vertical-align: middle; 
@@ -36,8 +36,9 @@ th.mat-header-cell {
   text-align: center; 
   vertical-align: middle; 
 }
-
-.centrado {
+*/
+/*
+.centrado11 {
   margin: 0 auto; 
   width: 90%; 
 }
@@ -45,4 +46,17 @@ th.mat-header-cell {
 .centrado2 {
   margin: 0 auto; 
   width: 85%; 
+}*/
+
+.full-width-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .mat-column-position,
+  .mat-column-weight,
+  .mat-column-symbol {
+    display: none;
+  }
 }

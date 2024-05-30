@@ -20,10 +20,13 @@ export class AppComponent implements  OnInit   {
   isTrx: boolean = true;
   @ViewChild('modalTemplate')
   modalTemplate!: TemplateRef<any>;
-  displayedColumns: string[] = ['acciones', 'mes', 'semana', 'tipo', 'valor', 'varios', 'total', 'datoAdicional'];
+  @ViewChild('modalTemplateI')
+  modalTemplateI!: TemplateRef<any>;
+  displayedColumns: string[] = ['acciones', 'mes', 'semana', 'tipo', 'valor', 'varios', 'total'];
   displayedColumnsMes: string[] = ['mes', 'total'];
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   mostrarCard: boolean = false;
+  descipcion: string = "";
 
   constructor(private dialog: MatDialog, private _serivice: GastosService) {}
   
@@ -98,6 +101,17 @@ export class AppComponent implements  OnInit   {
       console.log('El modal se cerró');
     });
   }
+
+  btnOpenModalDescripcion(model: Model) {
+    this.descipcion = model.datoAdicional;
+    const dialogRef = this.dialog.open(this.modalTemplateI, {
+      width: '350px', 
+    });
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('El modal se cerró');
+    });
+  }
+
 
   btnCloseModal(): void {
     this.dialog.closeAll();

@@ -357,13 +357,8 @@
         </ng-container>
     
         <ng-container matColumnDef="mes">
-          <th mat-header-cell *matHeaderCellDef> Mes </th>
-          <td mat-cell *matCellDef="let element"> {{element.mes}} </td>
-        </ng-container>
-
-        <ng-container matColumnDef="semana">
-          <th mat-header-cell *matHeaderCellDef> Semana </th>
-          <td mat-cell *matCellDef="let element"> {{element.semana}} </td>
+          <th mat-header-cell *matHeaderCellDef> M/S </th>
+          <td mat-cell *matCellDef="let element"> {{element.mes}} - {{element.semana}} </td>
         </ng-container>
     
         <ng-container matColumnDef="tipo">
@@ -373,17 +368,17 @@
     
         <ng-container matColumnDef="valor">
           <th mat-header-cell *matHeaderCellDef> Gasto </th>
-          <td mat-cell *matCellDef="let element"> $ {{element.valor}} </td>
+          <td mat-cell *matCellDef="let element"> ${{element.valor}} </td>
         </ng-container>
     
         <ng-container matColumnDef="varios">
-          <th mat-header-cell *matHeaderCellDef> Gastos Varios </th>
-          <td mat-cell *matCellDef="let element"> $ {{element.varios}} </td>
+          <th mat-header-cell *matHeaderCellDef> $ Varios </th>
+          <td mat-cell *matCellDef="let element"> ${{element.varios}} </td>
         </ng-container>
 
         <ng-container matColumnDef="total">
           <th mat-header-cell *matHeaderCellDef> Total </th>
-          <td mat-cell *matCellDef="let element"> $ {{element.total}} </td>
+          <td mat-cell *matCellDef="let element"> ${{element.total}} </td>
         </ng-container>        
     
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>

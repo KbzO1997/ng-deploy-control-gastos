@@ -22,7 +22,7 @@ export class AppComponent implements  OnInit   {
   modalTemplate!: TemplateRef<any>;
   @ViewChild('modalTemplateI')
   modalTemplateI!: TemplateRef<any>;
-  displayedColumns: string[] = ['acciones', 'mes', 'semana', 'tipo', 'valor', 'varios', 'total'];
+  displayedColumns: string[] = ['acciones', 'mes', 'tipo', 'valor', 'varios', 'total'];
   displayedColumnsMes: string[] = ['mes', 'total'];
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   mostrarCard: boolean = false;
